@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Söderviken RP</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<link rel="icon" href="https://cdn.discordapp.com/attachments/824381280967327836/1092186541201313913/Skarmbild_2023-04-02_212047-transformed-removebg-preview.png">
+		<link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+	<style type="text/css">
+		* {
+			font-family: 'Lato', sans-serif;
+			margin: 0px;
+			padding: 0px;
+			color: #f4f4f4;
+			font-weight: 200;
+			scroll-behavior: smooth;
+		}
+	</style>
+		<body style="overflow-x: hidden; background-color: #1F1F1F;">
+		<div style="position: fixed; top: -100px; left: 0px; width: 100vw; height: 100px; display: flex; justify-content: space-between; align-items: center; background: #222; z-index: 2;" id="navbar">
+			<img src="https://cdn.discordapp.com/attachments/824381280967327836/1092186541201313913/Skarmbild_2023-04-02_212047-transformed-removebg-preview.png" style="height: 90%; transition: 1s ease; position: relative; left: -500px; cursor: pointer;" id="navbarimg" onclick="scrollDIV(document.getElementById('home'));">
+			<div style="display: flex; justify-content: center; align-items: center; height: 100px; transition: 1s ease; position: relative;" id="navbardiv">
+				<h2 style="cursor: pointer; margin-left: 50px; margin-right: 50px; transition: .5s ease; text-align: center;" onclick="scrollDIV(document.getElementById('home'));" onmouseenter="this.style.color = '#0193dc';" onmouseleave="this.style.color = '#f4f4f4';">Hem</h2>
+				<h2 style="cursor: pointer; margin-left: 50px; margin-right: 50px; transition: .5s ease; text-align: center;" onclick="scrollDIV(document.getElementById('server'));" onmouseenter="this.style.color = '#0193dc';" onmouseleave="this.style.color = '#f4f4f4';">Servern</h2>
+				<h2 style="cursor: pointer; margin-left: 50px; margin-right: 50px; transition: .5s ease; text-align: center;" onclick="scrollDIV(document.getElementById('ansökningar'));" onmouseenter="tolor = '#0193dc';" onmouseleave="this.style.color = '#f4f4f4';">Ansökningar</h2>
+				<h2 style="cursor: pointer; margin-left: 50px; margin-right: 50px; transition: .5s ease; text-align: center;" onclick="window.location.href = 'https://discord.gg/pjC7uDqPrt';" onmouseenter="this.style.color = '#0193dc';" onmouseleave="this.style.color = '#f4f4f4';">Discord</h2>
+                <h2 style="cursor: pointer; margin-left: 50px; margin-right: 50px; transition: .5s ease; text-align: center;" onclick="window.location.href = 'regler.html';" onmouseenter="this.style.color = '#0193dc';" onmouseleave="this.style.color = '#f4f4f4';">Kontakta oss</h2>
+			</div>
+		</div>
+		</div>
+		<div style="width: 100vw; display: flex; align-items: center; flex-direction: column;" id="server">
+			<div style="display: flex; align-items: center; flex-direction: column; width: 100%; padding-top: 50px; padding-bottom: 50px;">
+				<div style="width: 80%; height: 20%; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+					<h1 style="font-size: 50px;">Regler</h1>
+					<hr style="margin-top: 20px; margin-bottom: 50px; width: 180px; border: 1px solid #0193dc;">
+				</div>
+				<div id="wrap" class="oe_structure oe_empty" data-oe-model="ir.ui.view" data-oe-id="923" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]">
+                    <section class="s_text_block pt40 pb40 o_colored_level o_we_force_no_transition" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                      <div class="container s_allow_columns">
+                        <p class="o_default_snippet_text">
+                          <strong style="font-weight: bolder;color: rgb(33, 37, 41)">
+                              <em>
+                                <h2 style="color: #ff7100 !important;" class="fas fa-gamepad" style="color: #0193dc; font-size: 30px; margin-right: 25px;"> FiveM servern regler</h2>
+                                <div>
+                                    <span style="font-size: 20px; cursor: pointer;" onclick="window.location.href = 'index.html';" onmouseenter="this.style.color = '#0193dc';" onmouseleave="this.style.color = '#f4f4f4';">『 Gå tillbaka till hem sidan 』</span>
+                                </div>
+                              </em>
+                            </span>
+                          </strong>
+                          <br/>
+                          <br/>
+                          <br/>
+                          <font style="color: rgb(0, 0, 0) !important">
+                            <u>
+                              <em>
+                                <strong style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 1. SKADA MOT SERVERN</span>
+                                </strong>
+                              </em>
+                            </u>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <em><span style="font-size: 14px">Skada mot server,</span>&nbsp;</em>
+                            <span style="font-size: 14px">Innebär att man typ går runt och säger till folk att servern är dålig bara för att du inte gillar den och bara ger den ett dåligt rykte&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <i>
+                                <u>
+                                  <span style="font-size: 14px">§ 2. Lall/Trolling</span>
+                                </u>
+                              </i>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Lall/trolling,</span>&nbsp;</i>
+                            <span style="font-size: 14px">Är inte tillåtet och ska inte uppstå på servern. Detta betyder att man inte RPAR och typ bryter mot regler och inte bryr sig om saker&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <em>
+                              <u>
+                                <strong style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 3. Korruption</span>
+                                </strong>
+                              </u>
+                            </em>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Korruption</span>&nbsp;</i>
+                            <span style="font-size: 14px">, är inte tillåtet och innebär att man inte gör sitt arbete som man ska typ att man arbetar som polis och för att man tar sin kompis så sänker man straffet bara för det&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 4. RDM</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">RDM</span>&nbsp;</i>
+                            <span style="font-size: 14px">, innebär Random Deathmatch Vilket betyder att man dödar någon utan anledning. Vi kommer inte ta det att det är en anledning att man inte gillar personen.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 5. VDM</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">VDM</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär Vehicle Deathmatch Vilket betyder att man använder ett fordon som ett vapen. Och att man dödar någon utan anledning fast med ett fordon.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 6.&nbsp;Copbait</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Copbait</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär att man kör olaglit eller gör ett brott framför en polisman eftersom att du vill att de ska gripa dig eller bara jaga.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§&nbsp;7. FearRP</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">FearRP</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär att man ska vara som i verkligheten så att om du typ har ett vapen eller hotad för ditt liv så ska man vara rädd för det hade man varit i verkligheten.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 8. Meatgaming</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Metagaming</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär samma som Stream Sniping och betyder att man tar information ute från spelet som typ discord eller twitch och använder denna information i spelet.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 9. NLR</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">NLR</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär New Life Rule betyder att om man har varit medvetslös typ så ska man inte komma ihåg saker som har hänt under scinariot.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 10. Combat Logging</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Combat</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Logging Betyder att man är i typ ett scinario som att du är jagad av någon som typ en polis och du då lämnar spelet eftersom att du vill komma iväg från jakten.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <u>
+                              <i>
+                                <b style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 11. Powergaming<br/></span>
+                                </b>
+                              </i>
+                            </u>
+                            <i><span style="font-size: 14px">Powergaming</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär att man ska RPA på skador så om du kör in i en stolpe så ska du RPA som att du får ont om det.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <u>
+                              <i>
+                                <b style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 12. Sunt Förnuft</span>
+                                </b>
+                              </i>
+                            </u>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Sunt Förnuft</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär Logiskt tänkade så att om du vill kidnappa typ en polis så ska du tänka skulle jag kunna göra detta eller är det vanligt att detta händer.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 13. Jobb byte</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px"><br/>Att&nbsp;</span>
+                            <i><span style="font-size: 14px">byta jobb,</span>&nbsp;</i>
+                            <span style="font-size: 14px">flertals gånger räknas som Fail RP. Som ni vet så kommer detta leda till konsekvenser.</span>
+                          </font>
+                          <br/>
+                        </p>
+                      </div>
+                    </section>
+                  </div>
+
+                  <div id="wrap" class="oe_structure oe_empty" data-oe-model="ir.ui.view" data-oe-id="923" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]">
+                    <section class="s_text_block pt40 pb40 o_colored_level o_we_force_no_transition" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                      <div class="container s_allow_columns">
+                        <p class="o_default_snippet_text">
+                          <strong style="font-weight: bolder;color: rgb(33, 37, 41)">
+                            <span style="font-size: 18px">
+                              <em>
+                                <h2 style="color: #ff0000 !important; margin-top: 60px;" class="fas fa-capsules" style="color: #0193dc; font-size: 30px; margin-right: 25px;"> Kriminell regler</h2>
+                              </em>
+                            </span>
+                          </strong>
+                          <br/>
+                          <br/>
+                          <br/>
+                          <font style="color: rgb(0, 0, 0) !important">
+                            <u>
+                              <em>
+                                <strong style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 1. SKADA MOT SERVERN</span>
+                                </strong>
+                              </em>
+                            </u>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <em><span style="font-size: 14px">Skada mot server,</span>&nbsp;</em>
+                            <span style="font-size: 14px">Innebär att man typ går runt och säger till folk att servern är dålig bara för att du inte gillar den och bara ger den ett dåligt rykte&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <i>
+                                <u>
+                                  <span style="font-size: 14px">§ 2. Lall/Trolling</span>
+                                </u>
+                              </i>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Lall/trolling,</span>&nbsp;</i>
+                            <span style="font-size: 14px">Är inte tillåtet och ska inte uppstå på servern. Detta betyder att man inte RPAR och typ bryter mot regler och inte bryr sig om saker&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <em>
+                              <u>
+                                <strong style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 3. Korruption</span>
+                                </strong>
+                              </u>
+                            </em>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Korruption</span>&nbsp;</i>
+                            <span style="font-size: 14px">, är inte tillåtet och innebär att man inte gör sitt arbete som man ska typ att man arbetar som polis och för att man tar sin kompis så sänker man straffet bara för det&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 4. RDM</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">RDM</span>&nbsp;</i>
+                            <span style="font-size: 14px">, innebär Random Deathmatch Vilket betyder att man dödar någon utan anledning. Vi kommer inte ta det att det är en anledning att man inte gillar personen.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 5. VDM</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">VDM</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär Vehicle Deathmatch Vilket betyder att man använder ett fordon som ett vapen. Och att man dödar någon utan anledning fast med ett fordon.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 6.&nbsp;Copbait</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Copbait</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär att man kör olaglit eller gör ett brott framför en polisman eftersom att du vill att de ska gripa dig eller bara jaga.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§&nbsp;7. FearRP</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">FearRP</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär att man ska vara som i verkligheten så att om du typ har ett vapen eller hotad för ditt liv så ska man vara rädd för det hade man varit i verkligheten.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 8. Meatgaming</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Metagaming</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär samma som Stream Sniping och betyder att man tar information ute från spelet som typ discord eller twitch och använder denna information i spelet.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 9. NLR</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">NLR</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär New Life Rule betyder att om man har varit medvetslös typ så ska man inte komma ihåg saker som har hänt under scinariot.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 10. Combat Logging</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Combat</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Logging Betyder att man är i typ ett scinario som att du är jagad av någon som typ en polis och du då lämnar spelet eftersom att du vill komma iväg från jakten.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <u>
+                              <i>
+                                <b style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 11. Powergaming<br/></span>
+                                </b>
+                              </i>
+                            </u>
+                            <i><span style="font-size: 14px">Powergaming</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär att man ska RPA på skador så om du kör in i en stolpe så ska du RPA som att du får ont om det.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <u>
+                              <i>
+                                <b style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 12. Sunt Förnuft</span>
+                                </b>
+                              </i>
+                            </u>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Sunt Förnuft</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär Logiskt tänkade så att om du vill kidnappa typ en polis så ska du tänka skulle jag kunna göra detta eller är det vanligt att detta händer.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 13. Jobb byte</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px"><br/>Att&nbsp;</span>
+                            <i><span style="font-size: 14px">byta jobb,</span>&nbsp;</i>
+                            <span style="font-size: 14px">flertals gånger räknas som Fail RP. Som ni vet så kommer detta leda till konsekvenser.</span>
+                          </font>
+                          <br/>
+                        </p>
+                      </div>
+                    </section>
+                  </div>
+
+                  <div id="wrap" class="oe_structure oe_empty" data-oe-model="ir.ui.view" data-oe-id="923" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]">
+                    <section class="s_text_block pt40 pb40 o_colored_level o_we_force_no_transition" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                      <div class="container s_allow_columns">
+                        <p class="o_default_snippet_text">
+                          <strong style="font-weight: bolder;color: rgb(33, 37, 41)">
+                            <span style="font-size: 18px">
+                              <em>
+                                <h2 style="color: #1db837 !important; margin-top: 60px;" class="fas fa-user-tag" style="color: #0193dc; font-size: 30px; margin-right: 25px;"> Medlemskaps regler</h2>
+                              </em>
+                            </span>
+                          </strong>
+                          <br/>
+                          <br/>
+                          <br/>
+                          <font style="color: rgb(0, 0, 0) !important">
+                            <u>
+                              <em>
+                                <strong style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 1. SKADA MOT SERVERN</span>
+                                </strong>
+                              </em>
+                            </u>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <em><span style="font-size: 14px">Skada mot server,</span>&nbsp;</em>
+                            <span style="font-size: 14px">Innebär att man typ går runt och säger till folk att servern är dålig bara för att du inte gillar den och bara ger den ett dåligt rykte&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <i>
+                                <u>
+                                  <span style="font-size: 14px">§ 2. Lall/Trolling</span>
+                                </u>
+                              </i>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Lall/trolling,</span>&nbsp;</i>
+                            <span style="font-size: 14px">Är inte tillåtet och ska inte uppstå på servern. Detta betyder att man inte RPAR och typ bryter mot regler och inte bryr sig om saker&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <em>
+                              <u>
+                                <strong style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 3. Korruption</span>
+                                </strong>
+                              </u>
+                            </em>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Korruption</span>&nbsp;</i>
+                            <span style="font-size: 14px">, är inte tillåtet och innebär att man inte gör sitt arbete som man ska typ att man arbetar som polis och för att man tar sin kompis så sänker man straffet bara för det&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 4. RDM</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">RDM</span>&nbsp;</i>
+                            <span style="font-size: 14px">, innebär Random Deathmatch Vilket betyder att man dödar någon utan anledning. Vi kommer inte ta det att det är en anledning att man inte gillar personen.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 5. VDM</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">VDM</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär Vehicle Deathmatch Vilket betyder att man använder ett fordon som ett vapen. Och att man dödar någon utan anledning fast med ett fordon.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 6.&nbsp;Copbait</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Copbait</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär att man kör olaglit eller gör ett brott framför en polisman eftersom att du vill att de ska gripa dig eller bara jaga.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§&nbsp;7. FearRP</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">FearRP</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär att man ska vara som i verkligheten så att om du typ har ett vapen eller hotad för ditt liv så ska man vara rädd för det hade man varit i verkligheten.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 8. Meatgaming</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Metagaming</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär samma som Stream Sniping och betyder att man tar information ute från spelet som typ discord eller twitch och använder denna information i spelet.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 9. NLR</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">NLR</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär New Life Rule betyder att om man har varit medvetslös typ så ska man inte komma ihåg saker som har hänt under scinariot.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 10. Combat Logging</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Combat</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Logging Betyder att man är i typ ett scinario som att du är jagad av någon som typ en polis och du då lämnar spelet eftersom att du vill komma iväg från jakten.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <u>
+                              <i>
+                                <b style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 11. Powergaming<br/></span>
+                                </b>
+                              </i>
+                            </u>
+                            <i><span style="font-size: 14px">Powergaming</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär att man ska RPA på skador så om du kör in i en stolpe så ska du RPA som att du får ont om det.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <u>
+                              <i>
+                                <b style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 12. Sunt Förnuft</span>
+                                </b>
+                              </i>
+                            </u>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Sunt Förnuft</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär Logiskt tänkade så att om du vill kidnappa typ en polis så ska du tänka skulle jag kunna göra detta eller är det vanligt att detta händer.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 13. Jobb byte</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px"><br/>Att&nbsp;</span>
+                            <i><span style="font-size: 14px">byta jobb,</span>&nbsp;</i>
+                            <span style="font-size: 14px">flertals gånger räknas som Fail RP. Som ni vet så kommer detta leda till konsekvenser.</span>
+                          </font>
+                          <br/>
+                        </p>
+                      </div>
+                    </section>
+                  </div>
+
+                  <div id="wrap" class="oe_structure oe_empty" data-oe-model="ir.ui.view" data-oe-id="923" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]">
+                    <section class="s_text_block pt40 pb40 o_colored_level o_we_force_no_transition" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                      <div class="container s_allow_columns">
+                        <p class="o_default_snippet_text">
+                          <strong style="font-weight: bolder;color: rgb(33, 37, 41)">
+                            <span style="font-size: 18px">
+                              <em>
+                                <h2 style="color: #0a0ed7 !important; margin-top: 60px;" class="fab fa-discord" style="color: #0193dc; font-size: 30px; margin-right: 25px;"> Discord servern regler</h2>
+                              </em>
+                            </span>
+                          </strong>
+                          <br/>
+                          <br/>
+                          <br/>
+                          <font style="color: rgb(0, 0, 0) !important">
+                            <u>
+                              <em>
+                                <strong style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 1. SKADA MOT SERVERN</span>
+                                </strong>
+                              </em>
+                            </u>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <em><span style="font-size: 14px">Skada mot server,</span>&nbsp;</em>
+                            <span style="font-size: 14px">Innebär att man typ går runt och säger till folk att servern är dålig bara för att du inte gillar den och bara ger den ett dåligt rykte&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <i>
+                                <u>
+                                  <span style="font-size: 14px">§ 2. Lall/Trolling</span>
+                                </u>
+                              </i>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Lall/trolling,</span>&nbsp;</i>
+                            <span style="font-size: 14px">Är inte tillåtet och ska inte uppstå på servern. Detta betyder att man inte RPAR och typ bryter mot regler och inte bryr sig om saker&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <em>
+                              <u>
+                                <strong style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 3. Korruption</span>
+                                </strong>
+                              </u>
+                            </em>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Korruption</span>&nbsp;</i>
+                            <span style="font-size: 14px">, är inte tillåtet och innebär att man inte gör sitt arbete som man ska typ att man arbetar som polis och för att man tar sin kompis så sänker man straffet bara för det&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 4. RDM</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">RDM</span>&nbsp;</i>
+                            <span style="font-size: 14px">, innebär Random Deathmatch Vilket betyder att man dödar någon utan anledning. Vi kommer inte ta det att det är en anledning att man inte gillar personen.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 5. VDM</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">VDM</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär Vehicle Deathmatch Vilket betyder att man använder ett fordon som ett vapen. Och att man dödar någon utan anledning fast med ett fordon.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 6.&nbsp;Copbait</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Copbait</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär att man kör olaglit eller gör ett brott framför en polisman eftersom att du vill att de ska gripa dig eller bara jaga.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§&nbsp;7. FearRP</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">FearRP</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär att man ska vara som i verkligheten så att om du typ har ett vapen eller hotad för ditt liv så ska man vara rädd för det hade man varit i verkligheten.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 8. Meatgaming</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Metagaming</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär samma som Stream Sniping och betyder att man tar information ute från spelet som typ discord eller twitch och använder denna information i spelet.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 9. NLR</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">NLR</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär New Life Rule betyder att om man har varit medvetslös typ så ska man inte komma ihåg saker som har hänt under scinariot.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 10. Combat Logging</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Combat</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Logging Betyder att man är i typ ett scinario som att du är jagad av någon som typ en polis och du då lämnar spelet eftersom att du vill komma iväg från jakten.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <u>
+                              <i>
+                                <b style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 11. Powergaming<br/></span>
+                                </b>
+                              </i>
+                            </u>
+                            <i><span style="font-size: 14px">Powergaming</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär att man ska RPA på skador så om du kör in i en stolpe så ska du RPA som att du får ont om det.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <u>
+                              <i>
+                                <b style="font-weight: bolder">
+                                  <span style="font-size: 14px">§ 12. Sunt Förnuft</span>
+                                </b>
+                              </i>
+                            </u>
+                            <span style="font-size: 14px">
+                              <br/>
+                            </span>
+                            <i><span style="font-size: 14px">Sunt Förnuft</span>&nbsp;</i>
+                            <span style="font-size: 14px">, Innebär Logiskt tänkade så att om du vill kidnappa typ en polis så ska du tänka skulle jag kunna göra detta eller är det vanligt att detta händer.&nbsp;&nbsp;</span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <br/>
+                            <span style="font-size: 14px"></span>
+                            <b style="font-weight: bolder">
+                              <u>
+                                <i>
+                                  <span style="font-size: 14px">§ 13. Jobb byte</span>
+                                </i>
+                              </u>
+                            </b>
+                            <span style="font-size: 14px"><br/>Att&nbsp;</span>
+                            <i><span style="font-size: 14px">byta jobb,</span>&nbsp;</i>
+                            <span style="font-size: 14px">flertals gånger räknas som Fail RP. Som ni vet så kommer detta leda till konsekvenser.</span>
+                          </font>
+                          <br/>
+                        </p>
+                      </div>
+                    </section>
+                  </div>
+				
+				</div>
+
+		</div>
+		<script type="text/javascript">
+			if (screen.width <= 1073) {
+				document.getElementById("navbarimg").style.display = "none";
+				document.getElementById("navbardiv").style.right = "0%";
+				document.getElementById("navbardiv").style.width = "100%";
+			}
+
+			if (screen.width <= 715) {
+				document.getElementById("whyus1").style.width = "100%";
+				document.getElementById("whyus2").style.width = "100%";
+			}
+
+			window.onload = function() {
+				if (this.scrollY <= 200) {
+					document.getElementById("navbar").style.background = "transparent";
+					document.getElementById("navbardiv").style.right = "calc(50% - " + (document.getElementById("navbardiv").offsetWidth / 2) + "px)";
+				}
+
+				if (screen.width <= 715) {
+					document.getElementById("img").style.transition = "none";
+					document.getElementById("img").style.height = "20%";
+				}
+
+				if (screen.width <= 1500) {
+					document.getElementById("joinnow").style.width = "80%";
+				}
+
+				if (screen.width <= 1600) {
+					document.getElementById("backgroundVideo").style.width = "auto";
+					document.getElementById("backgroundVideo").style.height = "100%";
+				}
+
+				var slogo = "Välkommen till Söderviken RP!";
+				var i = 0;
+
+				setTimeout(function() {
+					document.getElementById("slogo").style.opacity = "1";
+					setInterval(function() {
+						if (document.getElementById("slogo").innerHTML != slogo) {
+							if (i == 0) {
+								document.getElementById("slogo").innerHTML = slogo.charAt(i);
+							} else {
+								document.getElementById("slogo").innerHTML += slogo.charAt(i);
+							}
+							i++;
+						}
+					}, 50);
+				}, 1000);
+
+				document.getElementById("navbar").style.transition = "1s ease";
+				setTimeout(function() {
+					document.getElementById("navbar").style.top = "0px";
+				}, 500);
+			}
+
+			window.onscroll = function() {
+				if (this.scrollY <= 200) {
+					document.getElementById("navbar").style.background = "transparent";
+					document.getElementById("navbarimg").style.left = "-500px";
+					document.getElementById("navbardiv").style.right = "calc(50% - " + (document.getElementById("navbardiv").offsetWidth / 2) + "px)";
+				} else {
+					document.getElementById("navbar").style.background = "#222";
+					document.getElementById("navbarimg").style.left = "50px";
+					document.getElementById("navbardiv").style.right = "0px";
+				}
+			}
+
+			function scrollDIV(div) { 
+				window.scrollTo({top: div.getBoundingClientRect().top + window.pageYOffset - 100, behavior: 'smooth'});
+			}
+
+			function addRequestInfo(type) {
+				document.getElementById("requestform").innerHTML += "<input type=\"text\" name=\"type\" value=\"" + type + "\" style=\"display: none;\">";
+				document.getElementById("requestform").innerHTML += "<input type=\"text\" name=\"time\" value=\"2023-04-02 22:49\" style=\"display: none;\">";
+			}
+
+			function addRequestField(displayname, name) {
+				document.getElementById("requestform").innerHTML += "<div style=\"margin-top: 30px; display: flex; flex-direction: column; width: 40%;\"><h2 style=\"widows: 100%; margin-bottom: 5px;\">" + displayname + "</h2><input type=\"text\" name=\"" + name + "\" placeholder=\"Ditt svar\" style=\"width: 100%; padding: 10px; background-color: rgba(0, 0, 0, 0.5); font-size: 23px; border: 1px solid #0193dc;\" required></div>";
+			}
+
+			function clearRequestForm() {
+				document.getElementById("requestform").innerHTML = '<h1>Var snäll fyll i nedanstående frågor eller <span onclick=\'document.getElementById("requestform").style.opacity = "0"; setTimeout(function() { document.getElementById("requestform").style.display = "none"; document.getElementById("chooserequest").style.display = "flex"; setTimeout(function() { clearRequestForm(); setTimeout(function() { document.getElementById("chooserequest").style.opacity = "1"; }, 1000); }, 1); }, 1000);\' style="text-decoration: underline; cursor: pointer;">gå tillbaka</span>.</h1>';
+			}
+
+			document.getElementById("requestwhitelist").onclick = function() {
+								document.getElementById("chooserequest").style.opacity = "0";
+				setTimeout(function() {
+					document.getElementById("chooserequest").style.display = "none";
+					document.getElementById("requestform").style.display = "flex";
+					setTimeout(function() {
+						addRequestInfo("whitelist");
+						addRequestField("Namn(IRL)", "1");
+						addRequestField("Ålder(IRL)", "2");
+						addRequestField("Discord namn", "3");
+						addRequestField("Steam länk", "4");
+						addRequestField("Tidigare erfarenhet", "5");
+						addRequestField("Beskriv din karaktär", "6");
+						addRequestField("Varför skall just du bli whitelistad?", "7");
+						addRequestField("Ge exempel på vad som kan vara att gå över gränsen med rp", "8");
+						addRequestField("Övriga frågor eller kommentarer", "9");
+
+						document.getElementById("requestform").innerHTML += "<h3 style=\"margin-top: 25px; width: 80%; text-align: center;\">Av säkerhetsskäl kommer vi att spara din IP adress. Genom att klicka på \"Skicka in ansökan\" godkänner du detta.<h3><input type=\"submit\" name=\"submitrequest\" value=\"Skicka in ansökan\" style=\"background-color: #222; border: 1px solid #0193dc; text-align: center; cursor: pointer; padding: 10px; font-size: 20px; color: #000; transition: .5s ease; padding-left: 30px; padding-right: 30px; color: #f4f4f4; margin-top: 30px;\" onmouseenter=\"this.style.backgroundColor = '#0193dc'; this.style.color = '#222';\" onmouseleave=\"this.style.backgroundColor = '#222'; this.style.color = '#f4f4f4';\">";
+						setTimeout(function() {
+							document.getElementById("requestform").style.opacity = "1";
+						}, 1000);
+					}, 1);
+				}, 1000);
+							}
+
+			document.getElementById("requestcriminal").onclick = function() {
+								alert("Denna ansökningstypen är just nu avstängd.");
+							}
+
+			document.getElementById("requestban").onclick = function() {
+								document.getElementById("chooserequest").style.opacity = "0";
+				setTimeout(function() {
+					document.getElementById("chooserequest").style.display = "none";
+					document.getElementById("requestform").style.display = "flex";
+					setTimeout(function() {
+						addRequestInfo("ban");
+						addRequestField("Namn(IRL)", "1");
+						addRequestField("Ålder(IRL)", "2");
+						addRequestField("Discord namn", "3");
+						addRequestField("Steam länk", "4");
+						addRequestField("Vem vart du bannad av?", "5");
+						addRequestField("Ban ID", "6");
+						addRequestField("Vad står de när du försöker joina?", "7");
+						addRequestField("Beskriv vad som hände när du blev bannad", "8");
+						addRequestField("Hur lång blev din ban?", "9");
+						addRequestField("Varför skall vi unbanna dig?", "10");
+						addRequestField("Vad har du lärt dig?", "11");
+
+						document.getElementById("requestform").innerHTML += "<h3 style=\"margin-top: 25px; width: 80%; text-align: center;\">Av säkerhetsskäl kommer vi att spara din IP adress. Genom att klicka på \"Skicka in ansökan\" godkänner du detta.<h3><input type=\"submit\" name=\"submitrequest\" value=\"Skicka in ansökan\" style=\"background-color: #222; border: 1px solid #0193dc; text-align: center; cursor: pointer; padding: 10px; font-size: 20px; color: #000; transition: .5s ease; padding-left: 30px; padding-right: 30px; color: #f4f4f4; margin-top: 30px;\" onmouseenter=\"this.style.backgroundColor = '#0193dc'; this.style.color = '#222';\" onmouseleave=\"this.style.backgroundColor = '#222'; this.style.color = '#f4f4f4';\">";
+						setTimeout(function() {
+							document.getElementById("requestform").style.opacity = "1";
+						}, 1000);
+					}, 1);
+				}, 1000);
+							}
+
+			document.getElementById("requestboss").onclick = function() {
+								document.getElementById("chooserequest").style.opacity = "0";
+				setTimeout(function() {
+					document.getElementById("chooserequest").style.display = "none";
+					document.getElementById("requestform").style.display = "flex";
+					setTimeout(function() {
+						addRequestInfo("boss");
+						addRequestField("Namn(IRL)", "1");
+						addRequestField("Ålder(IRL)", "2");
+						addRequestField("Discord namn", "3");
+						addRequestField("Steam länk", "4");
+						addRequestField("Vilket chefsjobb söker du?", "5");
+						addRequestField("Vilka erfarenheter har du inom jobbet?", "6");
+						addRequestField("Varför vill du bli chef?", "7");
+						addRequestField("Hur anser du att en chef ska vara?", "8");
+						addRequestField("Karaktärsbeskrivning (minst 350 ord)", "9");
+						addRequestField("Hur ofta kommer du vara aktiv?", "10");
+
+						document.getElementById("requestform").innerHTML += "<h3 style=\"margin-top: 25px; width: 80%; text-align: center;\">Av säkerhetsskäl kommer vi att spara din IP adress. Genom att klicka på \"Skicka in ansökan\" godkänner du detta.<h3><input type=\"submit\" name=\"submitrequest\" value=\"Skicka in ansökan\" style=\"background-color: #222; border: 1px solid #0193dc; text-align: center; cursor: pointer; padding: 10px; font-size: 20px; color: #000; transition: .5s ease; padding-left: 30px; padding-right: 30px; color: #f4f4f4; margin-top: 30px;\" onmouseenter=\"this.style.backgroundColor = '#0193dc'; this.style.color = '#222';\" onmouseleave=\"this.style.backgroundColor = '#222'; this.style.color = '#f4f4f4';\">";
+						setTimeout(function() {
+							document.getElementById("requestform").style.opacity = "1";
+						}, 1000);
+					}, 1);
+				}, 1000);
+							}
+
+			document.getElementById("requestsupport").onclick = function() {
+								alert("Denna ansökningstyp är just nu avstängd.");
+							}
+		</script>
+	</body>
+</html>
